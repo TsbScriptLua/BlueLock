@@ -1,3 +1,4 @@
+--
 local replicated_storage = game:GetService("ReplicatedStorage")
 local players = game:GetService("Players")
 local teams = game:GetService("Teams")
@@ -32,8 +33,8 @@ Section:CreateButton("Get Aiku", function()
 set_style("Aiku")
 end)
 
-Section:CreateButton("Get Shiou", function()
-set_style("Rin")
+Section:CreateButton("Get Shidou", function()
+set_style("Shidou")
 end)
 
 Section:CreateTextbox("Custom Style", function(custom_style)
@@ -46,6 +47,9 @@ local Section = Window:NewSection("Flows")
 
 Section:CreateButton("Get Snake", function()
 set_flow("Snake")
+end)
+Section:CreateButton("Get Prodigy", function()
+set_flow("Prodigy")
 end)
 Section:CreateButton("Get Awk genuis", function()
 set_flow("Awakened Genius")
