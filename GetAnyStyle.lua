@@ -7,7 +7,7 @@ local run_service = game:GetService("RunService")
 local player = players.LocalPlayer
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 
-local Window = Library:NewWindow("Arbix hub | Flow and styles")
+local Window = Library:NewWindow("Test.lua Cracked | Get Any Style And Flow")
 
 local function set_style(desired_style)
     if player:FindFirstChild("PlayerStats") then
